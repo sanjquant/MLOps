@@ -1,1 +1,1 @@
-"Classification ML Algo - Intergration with Google Colaborator"
+"Classification ML Algo - Integration with Google Colaborator"
