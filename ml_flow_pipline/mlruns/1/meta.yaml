@@ -1,0 +1,4 @@
+artifact_location: file:///C:/Users/sanji/Documents/Queens/MLDeployment/TestLab/ml_flow_pipline/mlruns/1
+experiment_id: '1'
+lifecycle_stage: active
+name: mlflow demo

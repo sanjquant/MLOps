@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/sanji/Documents/Queens/MLDeployment/TestLab/ml_flow_pipline/mlruns/1/7119546a61f4475e9d680748f47d3b5d/artifacts
+end_time: 1654378631833
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: 7119546a61f4475e9d680748f47d3b5d
+run_uuid: 7119546a61f4475e9d680748f47d3b5d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1654378624521
+status: 3
+tags: []
+user_id: sanji

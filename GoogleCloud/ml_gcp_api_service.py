@@ -1,5 +1,10 @@
 from flask import Flask, request
 
+"""
+Create a VM instance in Google cloud:
+And Deploy this file in it. 
+
+"""
 import pickle
 import numpy as np
 
