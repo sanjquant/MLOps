@@ -19,13 +19,13 @@ def predict_purchase():
     print(salary)
     new_predict = local_classifier.predict(
         local_scaler.transform(np.array([[age, salary]])))
-    # new_predict_proba = local_classifier.predict_proba(local_scaler.transform(np.array([[age, salary]])))[:,1]
-    return "The Prediction is {}".format(new_predict)
+
+    return "The Prediction from GCP API is {}".format(new_predict)
+
 
 
 """
-If you want to run locally :
+If you want to run the app in the Cloud - Say Goofle cloud.
 """
-
 if __name__ == "__main__":
-    app.run(port=8000, debug=True)
+    app.run(host='0.0.0.0', port=8005, debug=True)   ## putting host -'0.0.0.0' makes the app available outside the google local cloud instance
